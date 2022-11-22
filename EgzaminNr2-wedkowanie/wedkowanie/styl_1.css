@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+
+.container{
+    font-style: helvetica;
+}
+
+.header{
+    background-color: #00838F;
+    color: white;
+    padding: 5px;
+    font-size: 130%;
+    text-align: center;
+}
+
+.leweBloki{
+    background-color: #EFEFEF;
+    width: 55%;
+    position: absolute;
+    height: 450px;
+}
+
+.blok1{
+    height: 150px;
+}
+
+.blok2{
+    height: 300px;
+}
+
+.blokPrawy{
+    background-color: #4FB3BF;
+    width: 45%;
+    height: 450px;
+    text-align: center;
+    float: right;
+}
+
+.img{
+    margin: 20px;
+    box-shadow: 10px 10px 7px dimgray;
+}
+
+table{
+    width: 80%;
+    border: 1px solid #4FB3BF;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table td {
+    border: 1px solid #4FB3BF;
+    padding: 4px;
+}
+
+table th {
+    border: 1px solid #4FB3BF;
+    padding: 4px;
+}
+
+table tr:hover{
+    background-color:#4FB3BF;
+}
+
+.footer{
+    margin: 0;
+    background-color: #00838F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 66px;
+}
+
+.link{
+    margin: 15;
+}
+
+
+
