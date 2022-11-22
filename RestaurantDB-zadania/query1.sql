@@ -1,0 +1,1 @@
+SELECT * FROM `reservation` WHERE number_of_guests > 0
