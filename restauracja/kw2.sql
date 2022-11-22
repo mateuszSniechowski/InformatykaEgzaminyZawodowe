@@ -1,1 +1,0 @@
-SELECT * FROM dania WHERE typ = 2; 
