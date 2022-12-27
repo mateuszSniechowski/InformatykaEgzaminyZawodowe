@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.baner{
+    background-color: #E8C84E;
+    height: 50px;
+    font-size: 130%;
+    text-align: center;
+    width: 100%;
+}
+
+.blokLewy{
+    background-color: #FFB544;
+    height: 500px;
+    width: 40%;
+    font-size: 130%;
+    float: left;
+}
+
+ul, li{
+    background-color: #FFAA00;
+    padding-top: 30px;
+}
+
+.blokSrodkowy{
+    height: 500px;
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+
+.form{
+    margin-bottom: 100px;
+}
+
+.blokPrawy{
+    background-color: #FFB544;
+    height: 500px;
+    width: 30%;
+    text-align: center;
+    font-size: 130%;
+    float: left;
+}
+
+.bP{
+    padding-top: 50px;
+}
+
+.footer{
+    background-color: #E8C84E;
+    height: 50px;
+    text-align: right;
+    padding: 10px;
+    clear: both;
+}
+

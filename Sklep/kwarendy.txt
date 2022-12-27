@@ -1,0 +1,27 @@
+Zapytanie 1: wybierające jedynie pole nazwa dla produktów objętych promocją z tabeli towary
+
+SELECT nazwa FROM towary WHERE promocja = 1;
+
+
+
+Zapytanie 2: wybierające jedynie pole cena dla produktu cienkopis z tabeli towary
+
+SELECT cena FROM towary WHERE id=5;
+
+
+
+Zapytanie 3: wybierające jedynie pole nazwa dla wszystkich rekordów z tabeli dostawcy oraz
+zliczające ilość towarów dostarczanych przez każdego z dostawców. Pole zliczające należy
+nazwać ilosc
+
+SELECT d.nazwa, COUNT(t.idDostawcy) as ilosc
+FROM dostawcy d
+LEFT JOIN towary t on  d.id = t.idDostawcy 
+GROUP BY d.nazwa
+
+
+
+Zapytanie 4: modyfikujące strukturę tabeli dostawcy poprzez dodanie pola o nazwie
+e_mail i typie TEXT
+
+ALTER TABLE dostawcy ADD e_mail TEXT;
